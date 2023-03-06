@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/140c348a97.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./css/hamburger.css"/>
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Kupa Smaku</title>
+	</head>
+	<body>
+		<header>
+
+			<button class="hamburger hamburger--spin" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+			
+			<nav class="nav nav-desktop">
+				<div class="nav-icon"><a href="index.html">kupa smaku</a></div>
+				<ul class="menu">
+					<li class="menu-item"><a href="#aboutus">O mnie</a></li>
+					<li class="menu-item two">
+						<a href="przepisy.html">Przepisy</a>
+						<ul class="dropdown">
+							<li><a href="./nav/ciasta.html">ciasta</a></li>
+							<li><a href="./nav/babki.html">babki</a></li>
+							<li><a href="./nav/babeczki.html">babeczki</a></li>
+							<li><a href="./nav/rolady.html">rolady</a></li>
+							<li><a href="./nav/monoporcje.html">monoporcje</a></li>
+							<li><a href="./nav/bez_pieczenia.html">bez pieczenia</a></li>
+						</ul>
+					</li>
+					<li class="menu-item three"><a href="#contact">Kontakt</a></li>
+				</ul>
+			</nav>
+
+			<nav class="nav nav-mobile">
+				<ul class="menu">
+					<li class="menu-item"><a href="#aboutus">O mnie</a></li>
+					<li class="menu-item two">
+						<a href="przepisy.html">Przepisy</a>
+					</li>
+					<li class="menu-item three"><a href="#contact">Kontakt</a></li>
+				</ul>
+			</nav>
+
+			<div class="header__img">
+				<div class="header__shadow"></div>
+				<div class="header__text">
+					<h1 class="company-name">Kupa Smaku</h1>
+					<p class="title-sentence">Zadowoli Twoje wszystkie "kupki" smakowe</p>
+				</div>
+
+				<a href="#aboutus">
+					<div class="btn-mainpage">
+						<img class="btn-mainpage-icon" src="./img/arrow-down.svg" /></div
+				></a>
+			</div>
+		</header>
+		<main>
+			<div class="slider hide"></div>
+			<section class="info" id="aboutus">
+				<div class="wrapper">
+					<h2 class="section__heading">
+						Kilka słów <span class="section-text-part">o mnie</span>
+					</h2>
+					<div class="underline"></div>
+					<div class="info__box">
+						<div class="info__box-img">
+							<img
+								src="./img/main2.jpg" style="rotate: 180deg;"
+								alt="trzy donuty z różową polewą"
+								class="info__img"
+							/>
+						</div>
+						<div class="info__box-text">
+							<h3 class="info__title">Kim jestem?</h3>
+							<p class="info__text">
+								Hej, mam na imię Marietta! W listopadzie 2022 roku zostałam mamą i właśnie to zmotywowało mnie do dzielenia się swoimi wytworami w internecie. Na moim blogu znajdziecie głównie słodkie przepisy, sprawia mi to największą satysfakcję. Jednak nie zabraknie tu specjałów w sam raz na obiad.
+							</p>
+						</div>
+					</div>
+
+					<div class="info__box">
+						<div class="info__box-img info__box-img--right">
+							<img
+								src="./img/ice-cream-g308be0caf_640.jpg"
+								alt="trzy donuty z różową polewą"
+								class="info__img"
+							/>
+						</div>
+						<div class="info__box-text info__box-text--right">
+							<h3 class="info__title info__title-right">Nie tylko tutaj?</h3>
+							<p class="info__text">
+								Wiele przepisów, które znajdziecie na mojej stronie jest efektem mojej twórczości na innych mediach społecznościowych. Zapraszam m.in. na <span><a class="siteLink" href="https://youtube.com/@kupasmaku">youtube'a</a></span>, gdzie możecie zobaczyć często przyspieszony, lecz szczegółowy proces przygotowywania słodkości i nie tylko.
+							</p>
+							<div class="info__box-social">
+								<a class="info__box-link" href="https://youtube.com/@kupasmaku" target="_blank">
+									<i class="icon fa-brands fa-youtube"></i
+								></a>
+								<a
+									class="info__box-link"
+									href="https://instagram.com/kupasmakupl?igshid=ZDdkNTZiNTM=" target="_blank"
+								>
+									<i class="icon fab fa-instagram"></i
+								></a>
+								<a
+									class="info__box-link"
+									href="https://www.facebook.com/profile.php?id=100089440286162" target="_blank"
+								>
+									<i class="icon fab fa-facebook-square"></i
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<i class="info__bg-icon fa-solid fa-cookie-bite"></i>
+				<i class="info__bg-icon-second fa-solid fa-candy-cane"></i>
+				<i class="info__bg-icon-third fa-solid fa-candy-cane"></i>
+			</section>
+
+			<section class="contact" id="contact">
+				<div class="wrapper">
+					<h2 class="section__heading">
+						Napisz <span class="section-text-part">do mnie</span>
+					</h2>
+					<div class="underline"></div>
+
+					<form class="contact__form">
+						<div class="contact__form-box">
+							<label for="name">Twoje imię</label>
+							<input type="text" id="name" />
+						</div>
+						<div class="contact__form-box">
+							<label for="mail">Twój e-mail</label>
+							<input type="email" id="mail" />
+						</div>
+						<div class="contact__form-box">
+							<label for="msg">Wiadomość</label>
+							<textarea id="msg"></textarea>
+						</div>
+						<button type="submit" class="contact__form-btn">Wyślij</button>
+					</form>
+				</div>
+			</section>
+
+<div class="cookie-box">
+	<p>Nasza strona korzysta z ciasteczek :)</p>
+	<button class="cookie-btn">Akceptuj</button>
+</div>
+
+			<footer class="footer">
+				<p class="footer">
+					&copy; <span class="footer__year"></span> Kupa Smaku
+				</p>
+			</footer>
+		</main>
+		<script src="./js/script.js"></script>
+	</body>
+</html>

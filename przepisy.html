@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/140c348a97.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./css/hamburger.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Kupa Smaku | Przepisy</title>
+	</head>
+	<body>
+		<header>
+			<button class="hamburger hamburger--spin" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+
+			<nav class="nav nav-desktop">
+				<div class="nav-icon"><a href="./index.html">kupa smaku</a></div>
+				<ul class="menu">
+					<li class="menu-item"><a href="./index.html#aboutus">O mnie</a></li>
+					<li class="menu-item two">
+						<a href="przepisy.html">Przepisy</a>
+						<ul class="dropdown">
+							<li><a href="./nav/ciasta.html">ciasta</a></li>
+							<li><a href="./nav/babki.html">babki</a></li>
+							<li><a href="./nav/babeczki.html">babeczki</a></li>
+							<li><a href="./nav/rolady.html">rolady</a></li>
+							<li><a href="./nav/monoporcje.html">monoporcje</a></li>
+							<li><a href="./nav/bez_pieczenia.html">bez pieczenia</a></li>
+						</ul>
+					</li>
+					<li class="menu-item three">
+						<a href="./index.html#contact">Kontakt</a>
+					</li>
+				</ul>
+			</nav>
+
+			<nav class="nav nav-mobile">
+				<ul class="menu">
+					<li class="menu-item"><a href="./index.html#aboutus">O mnie</a></li>
+					<li class="menu-item two">
+						<a href="przepisy.html">Przepisy</a>
+					</li>
+					<li class="menu-item three"><a href="./index.html#contact">Kontakt</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="slider hide"></div>
+		<main class="main">
+			<section class="recipes">
+				<div class="wrapper">
+					<div class="space"></div>
+					<div class="recipes__boxes">
+						<div class="recipes__img img-one">
+							<a href="./nav/ciasta.html">
+								<div class="recipes__img-shadow"></div>
+								<div class="recipes__text">
+									<h2>ciasta</h2>
+								</div></a
+							>
+						</div>
+						<div class="recipes__img img-two">
+							<a href="./nav/babki.html">
+								<div class="recipes__img-shadow"></div>
+								<div class="recipes__text">
+									<h2>babki</h2>
+								</div></a
+							>
+						</div>
+						<div class="recipes__img img-three">
+							<a href="./nav/babeczki.html">
+								<div class="recipes__img-shadow"></div>
+								<div class="recipes__text">
+									<h2>babeczki</h2>
+								</div></a
+							>
+						</div>
+					
+						<div class="recipes__img img-four">
+							<a href="./nav/rolady.html">
+								<div class="recipes__img-shadow"></div>
+								<div class="recipes__text">
+									<h2>rolady</h2>
+								</div></a
+							>
+						</div>
+						<div class="recipes__img img-five">
+							<a href="./nav/monoporcje.html">
+								<div class="recipes__img-shadow"></div>
+								<div class="recipes__text">
+									<h2>monoporcje</h2>
+								</div></a
+							>
+						</div>
+
+						<div class="recipes__img img-six">
+							<a href="./nav/bez_pieczenia.html">
+								<div class="recipes__img-shadow"></div>
+								<div class="recipes__text">
+									<h2>bez pieczenia</h2>
+								</div></a
+							>
+						</div>
+					</div>
+				</div>
+				<i class="info__bg-icon fa-solid fa-cookie-bite"></i>
+				<i class="info__bg-icon-second fa-solid fa-candy-cane"></i>
+				<i class="info__bg-icon-third fa-solid fa-candy-cane"></i>
+			</section>
+
+			<div class="cookie-box">
+				<p>Nasza strona korzysta z ciasteczek :)</p>
+				<button class="cookie-btn">Akceptuj</button>
+			</div>
+			<footer class="footer">
+				<p class="footer">
+					&copy; <span class="footer__year"></span> Kupa Smaku
+				</p>
+			</footer>
+		</main>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
