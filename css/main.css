@@ -228,8 +228,6 @@ nav {
   color: #f6ed9e;
   text-transform: uppercase;
   letter-spacing: 8px;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
 }
 .header__shadow {
   position: absolute;
