@@ -1,5 +1,5 @@
 const footerYear = document.querySelector(".footer__year");
-
+ 
 const cookieBox = document.querySelector(".cookie-box");
 const cookieBtn = document.querySelector(".cookie-btn");
 
